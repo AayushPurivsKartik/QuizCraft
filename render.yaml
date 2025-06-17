@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: ai-quiz-backend
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: gunicorn run:app
+    runtime: python
+    region: oregon
+    branch: main
+    healthCheckPath: /
+    autoDeploy: true
+    rootDir: backend
