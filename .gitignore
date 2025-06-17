@@ -1,0 +1,12 @@
+# Ignore virtual environment
+backend/venv/
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment/config files
+.env
+*.log

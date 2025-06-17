@@ -1,0 +1,14 @@
+flask
+flask-login
+flask-migrate
+flask-wtf
+flask-sqlalchemy
+transformers
+torch
+nltk
+spacy
+youtube-transcript-api
+PyPDF2
+itsdangerous
+requests
+wtforms
