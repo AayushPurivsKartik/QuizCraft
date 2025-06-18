@@ -5,6 +5,8 @@ flask-migrate
 flask-wtf
 flask-sqlalchemy
 sentencepiece
+psycopg2-binary
+python-dotenv
 transformers
 torch
 nltk
